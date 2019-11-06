@@ -10,6 +10,7 @@ import br.com.caelum.vraptor.Get;
 import br.com.caelum.vraptor.Path;
 import br.com.caelum.vraptor.Post;
 import br.com.caelum.vraptor.Result;
+import br.edu.fjn.erp.annotations.Private;
 import br.edu.fjn.erp.domain.customer.Customer;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -22,6 +23,7 @@ import javax.inject.Inject;
  */
 @Controller
 @Path("customer")
+@Private
 public class CustomerController {
     
     @Inject
